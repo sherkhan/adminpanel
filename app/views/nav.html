@@ -1,0 +1,13 @@
+<nav class="navbar-default navbar-side" role="navigation">
+  <div class="sidebar-collapse">
+    <ul class="nav" id="main-menu" ng-controller="NavigationController">
+
+      <li ng-repeat="item in items">
+        <a ng-class="{'active-menu': item.id == states.activeItem}" ng-click="states.activeItem=item.id" ng-href={{item.href}}><i class="fa {{item.icon}}"></i> {{item.title}}</a>
+      </li>
+
+    </ul>
+
+  </div>
+
+</nav>

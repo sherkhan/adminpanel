@@ -1,0 +1,49 @@
+
+<div class="row">
+  <div class="col-md-12">
+    <h1 class="page-header">
+      Новая задача
+    </h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+<form action="./post.php" method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="master">Кому ставится задача</label>
+    <select id="master" class="form-control">
+      <option id="alex">Саша</option>
+      <option id="anton">Антон</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="time">Время</label>
+    <div class="form-group">
+      <div class="input-group input-append date" id="datepicker">
+        <input data-format="dd/MM/yyyy hh:mm:ss" type="text" class="form-control" id="time" placeholder="Время">
+        <div class="input-group-addon"><i class="fa fa-clock-o"></i></div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="form-group">
+    <label for="address">Адрес клиента</label>
+    <input type="text" class="form-control" id="address" placeholder="Адрес клиента">
+  </div>
+  <div class="form-group">
+    <label for="phone">Телефон</label>
+    <input type="text" class="form-control" id="phone" placeholder="Телефон">
+  </div>
+  <div class="form-group">
+    <label for="type">Что нужно сделать</label>
+    <textarea class="form-control" id="type" placeholder="Что нужно сделать" rows="3"></textarea>
+
+  </div>
+
+
+  <button type="submit" class="btn btn-default">Поставить задачу</button>
+</form>
+  </div>
+</div>
+
