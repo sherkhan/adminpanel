@@ -112,8 +112,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-112" />
-    <option name="y" value="131" />
+    <option name="x" value="843" />
+    <option name="y" value="208" />
     <option name="width" value="2096" />
     <option name="height" value="1262" />
   </component>
@@ -378,7 +378,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-112" y="131" width="2096" height="1262" extended-state="0" />
+    <frame x="843" y="208" width="2096" height="1262" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />

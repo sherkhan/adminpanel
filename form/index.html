@@ -8,19 +8,25 @@
 <body>
 
 <form name="postform" action="post.php" method="post" enctype="multipart/form-data">
-<table class="postarea" id="postarea">
-    <tbody>
-<tr>    <td class="postblock">Date:</td><td><input type="text" name="startDate"></td></tr>
-<tr>    <td class="postblock">Title:</td><td><input type="text" name="headline"></td></tr>
-<tr>    <td class="postblock">Article:</td><td><textarea id="text" rows="5" cols="30" type="text" name="text"></textarea> </td> </tr>
-<tr>    <td class="assetblock">Image address:</td><td><input type="text" name="media"></td></tr>
-<tr>    <td class="assetblock">Image caption:</td><td><input type="text" name="caption"></td></tr>
+<div>
+	
 
-<tr>    <td class="postblock"></td><td> <input type="submit" value="Submit Entry"> </td>    </tr>
-</tbody>
-</table>
+	    <select name='master'>
+		    <option value="one">one</option>
+		    <option value="two">two</option>
+	    	
+	    </select>
+    
+</div>
+<div>
+
+ <input type="text" name="media[two]">
+</div>
+<div>
+<input type="submit" value="Submit Entry"> 
+</div>
 </form>
-</form>
+
 </body>
 
 
